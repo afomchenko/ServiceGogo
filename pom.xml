@@ -27,8 +27,8 @@
                     <instructions>
                         <Bundle-Category>sample</Bundle-Category>
                         <Bundle-SymbolicName>${project.artifactId}</Bundle-SymbolicName>
-                        <Export-Package>ru.mera.bt.service.gogo</Export-Package>
-                        <Import-Package>org.apache.felix.service.command; version=0.12.0; ru.mera.bt.model </Import-Package>
+                        <Export-Package>ru.mera.service.gogo, ru.mera.service.gogo.impl</Export-Package>
+                        <Import-Package>ru.mera.bt.service</Import-Package>
                     </instructions>
                     <obrRepository>file:///D:/dev/btfelix</obrRepository>
                 </configuration>

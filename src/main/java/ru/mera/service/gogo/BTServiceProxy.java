@@ -19,7 +19,7 @@ public interface BTServiceProxy {
 
     Set<User> finduser(String name);
 
-    User finduser(String name, String email);
+    Set<User> finduser(String name, String email);
 
-    User finduser(int id);
+    Set<User> finduser(int id);
 }

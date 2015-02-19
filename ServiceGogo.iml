@@ -5,8 +5,8 @@
       <configuration manifestGenerationMode="OsmorcControlled" manifestLocation="" jarfileLocation="ru.mera.bt.service-gogo-1.0-SNAPSHOT.jar" outputPathType="CompilerOutputPath" bndFileLocation="" bundlorFileLocation="" bundleActivator="" bundleSymbolicName="ru.mera.bt.service-gogo" bundleVersion="1.0.0.SNAPSHOT" ignoreFilePattern="" useProjectDefaultManifestFileLocation="true" alwaysRebuildBundleJAR="false" doNotSynchronizeWithMaven="false">
         <additionalProperties>
           <property key="Bundle-Category" value="sample" />
-          <property key="Export-Package" value="ru.mera.bt.service.gogo" />
-          <property key="Import-Package" value="org.apache.felix.service.command; version=0.12.0; ru.mera.bt.model" />
+          <property key="Export-Package" value="ru.mera.service.gogo, ru.mera.service.gogo.impl" />
+          <property key="Import-Package" value="ru.mera.bt.service" />
           <property key="Bundle-Name" value="ru.mera.bt.service-gogo" />
         </additionalProperties>
         <additionalJARContents />
